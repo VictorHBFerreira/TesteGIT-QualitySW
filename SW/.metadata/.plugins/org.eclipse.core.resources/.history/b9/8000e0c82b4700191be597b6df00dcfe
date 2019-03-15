@@ -1,0 +1,21 @@
+package br.com.fiap.teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TesteCalculadora {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	public void testeSomar() {
+		intnro1 = 5; intnro2 = 5; Calculadora calc= new Calculadora(); intresultadoEsperado= 10; intresultadoReal= calc.somar(nro1, nro2); assertEquals(resultadoEsperado, resultadoReal);
+	}
+
+	}
+
+}
