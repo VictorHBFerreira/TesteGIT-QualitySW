@@ -1,0 +1,19 @@
+package br.com.fiap.teste;
+
+publicclassCalculadora{
+	private int resultado = 0;
+	public int somar( intn1, intn2 ){
+	resultado = n1 + n2; 
+	return 	resultado;
+	}
+	public int subtrair( intn1, intn2 ){
+	resultado = n1 -n2; 
+	return resultado; }        
+	public int multiplicar( intn1, intn2 ){
+	resultado = n1 * n2; 
+	return resultado;
+	}
+	public int dividir( intn1, intn2 ){
+	resultado = n1 / n2; 
+	return resultado;
+	}

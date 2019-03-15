@@ -1,0 +1,41 @@
+package br.com.fiap.teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TesteCalculadora {
+
+	
+	
+	@Test
+	public void testeSomar() {
+		int num1 = 5; 
+		int num2 = 5; 
+		Calculadora calc= new Calculadora(); 
+		int resultadoEsperado= 10; 
+		int resultadoReal= calc.somar(num1, num2); 
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+
+	@Test
+	public void testeSubtrair() {
+		int num1 = 5;
+		int num2 = 5;
+		Calculadora calc = new Calculadora();
+		int resEsperado = 0;
+		int resReal = calc.subtrair(num1, num2);
+		assertEquals(resEsperado, resReal);
+	}
+	
+	@Test
+	public void multiplicar() {
+		int num1 = 5;
+		int num2 = 5;
+		Calculadora calc = new Calculadora();
+		int resEsperado = 25;
+		int resReal = calc.multiplicar(num1, num2);
+		assertEquals(resEsperado, resReal);
+	}
+
+}

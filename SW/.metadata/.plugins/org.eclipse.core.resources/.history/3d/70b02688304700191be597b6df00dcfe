@@ -1,0 +1,40 @@
+package br.com.fiap.entity;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import javax.swing.JOptionPane;
+
+import org.junit.jupiter.api.Test;
+
+
+class TesteProduto {
+	
+	Produto prod = new Produto(35, 1.30);
+	
+	@Test
+	public void testeSetAltura(double altura){	
+
+		assertEquals(1.30, altura);
+	}
+	@Test
+	public void testeSetPeso(int peso) {
+		assertEquals(35, peso);
+		
+	}
+	
+	//=============================================================//
+	
+	@Test
+	public void testeGetAltura() {
+
+		assertEquals(1.30, prod.getAltura());
+	}
+	@Test
+	public void testeGetPeso() {
+		
+		assertEquals(35, prod.getPeso());
+	}
+	
+
+}

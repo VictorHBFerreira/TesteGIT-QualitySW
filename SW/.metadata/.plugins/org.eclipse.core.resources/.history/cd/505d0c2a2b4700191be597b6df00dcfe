@@ -1,0 +1,23 @@
+package br.com.fiap.teste;
+
+public class Calculadora {
+	
+	int resultado, n1, n2;
+	
+	
+	resultado = n1 + n2; 
+	return resultado;
+	
+	
+	resultado = n1 -n2; 
+	return resultado;       
+	
+	resultado = n1 * n2; 
+	return resultado;
+	
+
+	resultado = n1 / n2; 
+	return resultado;
+	
+	
+}
